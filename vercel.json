@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/media/ip/pltw/version.json",
+      "destination": "/media/ip/pltw/version.json"
+    },
+    {
+      "source": "/kite/TDE/logIn.htm",
+      "destination": "/kite/TDE/logIn.htm"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
